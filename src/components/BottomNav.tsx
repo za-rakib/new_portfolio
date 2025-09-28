@@ -15,7 +15,7 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView, onViewChange }) => {
   ];
 
   return (
-    <div className="absolute bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-700 flex justify-around py-2 px-4">
+    <div className="absolute bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-700 flex justify-around py-2 px-4 rounded-t-2xl">
       {navItems.map(item => (
         <button
           key={item.key}
