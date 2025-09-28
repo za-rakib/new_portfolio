@@ -125,3 +125,12 @@
 .stagger-10 { animation-delay: 1.0s; }
 .stagger-11 { animation-delay: 1.1s; }
 .stagger-12 { animation-delay: 1.2s; }
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
