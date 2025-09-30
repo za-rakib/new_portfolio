@@ -21,18 +21,16 @@ const About: React.FC = () => {
 
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-          Hi, I'm Rakib 👋
+          Rakib Hossen
         </h1>
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          A passionate{" "}
+          I'm a detail-oriented{" "}
           <span className="text-purple-400 font-semibold">
             React Native Developer
           </span>{" "}
-          with 3 years of experience building sleek, modern apps for OTT, IoT,
-          and RMG sectors. I love turning ideas into interactive, high-quality
-          mobile experiences.
+          with over 4 years of experience crafting high-performance mobile applications for both Android and iOS. My expertise lies in developing cutting-edge OTT apps, integrating IoT devices, and optimizing for offline data handling and performance. I thrive on transforming complex challenges into seamless, intuitive, and visually stunning user experiences.
         </p>
 
         {/* Tech Stack */}
@@ -42,7 +40,7 @@ const About: React.FC = () => {
           transition={{ delay: 0.5 }}
           className="flex flex-wrap justify-center gap-4 mt-6"
         >
-          {["⚛️ React Native", "📱 iOS & Android", "🎨 UI/UX", "⚡ Redux", "☁️ GraphQL"].map(
+          {["React Native", "TypeScript", "Redux", "Node.js", "Swift", "Kotlin", "Firebase", "Git", "CI/CD"].map(
             (skill, index) => (
               <motion.span
                 key={index}
