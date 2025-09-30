@@ -30,13 +30,13 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView, onViewChange }) => {
           <span className="text-xl">{item.icon}</span>
 
           {/* Label (only visible when active or hover) */}
-          <span
+          {/* <span
             className={`absolute -top-7 text-xs px-2 py-1 rounded-md backdrop-blur-sm border text-gray-200 bg-gray-800/70 border-gray-600 opacity-0 group-hover:opacity-100 transition-all duration-300 ${
               currentView === item.key ? "opacity-100" : ""
             }`}
           >
             {item.label}
-          </span>
+          </span> */}
         </button>
       ))}
     </div>

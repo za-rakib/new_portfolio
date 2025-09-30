@@ -9,7 +9,7 @@ interface HomeScreenProps {
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ projects, onAppClick }) => {
   return (
-    <div className="grid grid-cols-4 gap-4 p-4 py-8">
+    <div className="grid grid-cols-4 gap-4 p-4 py-8 pb-24">
       {projects.map((project, index) => (
         <div
           key={project.id}

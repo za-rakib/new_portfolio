@@ -7,7 +7,7 @@ const Settings: React.FC = () => {
   const [autoUpdate, setAutoUpdate] = useState(false);
 
   return (
-    <div className="p-6 max-h-full overflow-y-auto">
+    <div className="p-6 pb-24 max-h-full overflow-y-auto">
       <h2 className="text-3xl font-bold mb-6 text-center text-gray-900">Settings</h2>
 
       <div className="space-y-6">
