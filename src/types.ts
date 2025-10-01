@@ -5,4 +5,5 @@ export interface Project {
   description: string;
   screenshots: string[];
   links: { label: string; url: string }[];
+  category?: 'Work' | 'Personal';
 }

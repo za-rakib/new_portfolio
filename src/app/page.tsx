@@ -19,7 +19,8 @@ const projects: Project[] = [
     icon: '📺',
     description: 'An OTT platform for streaming movies and TV shows with personalized recommendations.',
     screenshots: ['img1', 'img2', 'img3'],
-    links: [{ label: 'GitHub', url: 'https://github.com' }, { label: 'Demo', url: 'https://demo.com' }]
+    links: [{ label: 'GitHub', url: 'https://github.com' }, { label: 'Demo', url: 'https://demo.com' }],
+    category: 'Work'
   },
   {
     id: 'iot',
